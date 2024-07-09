@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+button{
+    background-color: white;
+    border: none;
+     border-radius: 5px;
+}
+
+
+.clear{
+    background-color: red;
+   
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px;
+    grid-template-rows: 80px 80px 80px 80px 80px;
+    gap: 10px;
+    justify-content: center;
+    
+}
+
+
+.calculator{
+    background-color: aqua;
+    padding: 10px ;
+
+    width: 360px;
+
+    margin: 20px auto;
+}
+
+
+
+
+input{
+    grid-column: 1/4;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.head{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+   
+}
